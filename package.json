@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "name": "week12-FE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mokagbue/week12-FE.git",
+  "author": "Michelle Okagbue <umbralcompendium@gmail.com>",
+  "license": "MIT"
 }
