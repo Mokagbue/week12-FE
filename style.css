@@ -2,3 +2,29 @@
     height:25px;
     border: 1px solid black
 }
+
+/* fonts  */
+.fonts {
+    font-family: 'Patrick Hand SC', cursive;
+}
+.headers {
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.content {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 3rem;
+    /* min-width: 300px;
+    max-width:700px;
+    */
+    width:450px;
+} 
+.author {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 2rem;
+    /* min-width: 300px;
+    max-width:700px;
+    */
+    width:450px;
+} 
