@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html data-bs-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Note Taker</title>
-    <link rel="icon" type="image/x-icon" href="001-pen.png">
+    <link rel="icon" type="image/x-icon" href="001-pen.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -25,10 +25,7 @@
     <div class="container">
       <div class="d-flex flex-row mt-3">
         <div class="d-flex flex-column justify-content-center mx-auto">
-          <form
-            id="form"
-            class="d-flex flex-column justify-content-center"
-          >
+          <form id="form" class="d-flex flex-column justify-content-center">
             <label class="headers p-2">Write a Post!</label>
             <textarea
               name="post"
@@ -45,12 +42,13 @@
           </form>
         </div>
       </div>
-      <div class="d-flex flex-column justify-content-center ">
-        <p class="headers d-flex justify-content-center border-top mt-3">Posts</p>
+      <div class="d-flex flex-column justify-content-center">
+        <p class="headers d-flex justify-content-center border-top mt-3">
+          Posts
+        </p>
         <div id="posts"></div>
       </div>
     </div>
-
     <script src="indext.js"></script>
   </body>
 </html>

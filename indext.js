@@ -1,3 +1,5 @@
+//I wanted to show an author for the posts so, I changed from an obj to an array of objs
+
 let form = document.getElementById("form");
 let input = document.getElementById("input");
 let author = document.getElementById("author");
@@ -36,7 +38,7 @@ let formValidation = () => {
 
 //we collect the posts made by the user and store them in our mock server: "data" object
 let addPost = () => {
-  msg.innerHTML = "post added";
+  // msg.innerHTML = "post added";
   let newPost = new DataObj(author.value, input.value);
   data.push(newPost);
   //   data["text"] = input.value;
@@ -53,7 +55,7 @@ let displayPosts = () => {
 
   posts.innerHTML += `
   <div class="post-content d-flex justify-content-center flex-row">
-    <div class="border"> 
+    <div class="border-bottom"> 
       <p class="content px-3">${note}</p>
       <p class="author p-3">- ${name}</p>
     </div>
